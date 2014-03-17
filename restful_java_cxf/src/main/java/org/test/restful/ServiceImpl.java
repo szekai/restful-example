@@ -20,10 +20,6 @@ import javax.ws.rs.core.UriInfo;
 import org.test.restful.pojo.User;
 import org.test.restful.pojo.UserCollection;
 
-/**
- *
- * @author nithyanandann
- */
 @Path("/myservice/")
 @Produces({"application/json", "application/xml"})
 public class ServiceImpl implements ServiceDefn {

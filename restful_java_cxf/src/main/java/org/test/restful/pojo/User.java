@@ -7,10 +7,6 @@ package org.test.restful.pojo;
 
 import javax.xml.bind.annotation.XmlRootElement;
 
-/**
- *
- * @author nithyanandann
- */
 @XmlRootElement(name = "user")
 public class User {
     private Integer id;

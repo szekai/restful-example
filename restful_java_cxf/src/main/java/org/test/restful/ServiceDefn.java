@@ -10,10 +10,6 @@ import javax.ws.rs.core.UriInfo;
 import org.test.restful.pojo.User;
 import org.test.restful.pojo.UserCollection;
 
-/**
- *
- * @author nithyanandann
- */
 public interface ServiceDefn {
 
     UserCollection getUsers();
